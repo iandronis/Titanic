@@ -1,0 +1,60 @@
+Classifier: DummyClassifier
+Accuracy: 0.535256410256
+             precision    recall  f1-score   support
+
+       Died     0.6283    0.6186    0.6234       194
+   Survived     0.3884    0.3983    0.3933       118
+
+avg / total     0.5376    0.5353    0.5364       312
+
+Area under the Precision-Recall curve (DummyClassifier): 0.467
+Classifier: KNeighborsClassifier
+Accuracy: 0.823717948718
+             precision    recall  f1-score   support
+
+       Died     0.8458    0.8763    0.8608       194
+   Survived     0.7838    0.7373    0.7598       118
+
+avg / total     0.8223    0.8237    0.8226       312
+
+Area under the Precision-Recall curve (KNeighborsClassifier): 0.817
+Classifier: BernoulliNB
+Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+       Died     0.8516    0.7990    0.8245       194
+   Survived     0.7000    0.7712    0.7339       118
+
+avg / total     0.7943    0.7885    0.7902       312
+
+Area under the Precision-Recall curve (BernoulliNB): 0.698
+Classifier: MultinomialNB
+Accuracy: 0.698717948718
+             precision    recall  f1-score   support
+
+       Died     0.6748    0.9948    0.8042       194
+   Survived     0.9615    0.2119    0.3472       118
+
+avg / total     0.7833    0.6987    0.6313       312
+
+Area under the Precision-Recall curve (MultinomialNB): 0.736
+Classifier: GaussianNB
+Accuracy: 0.717948717949
+             precision    recall  f1-score   support
+
+       Died     0.7500    0.8196    0.7833       194
+   Survived     0.6500    0.5508    0.5963       118
+
+avg / total     0.7122    0.7179    0.7126       312
+
+Area under the Precision-Recall curve (GaussianNB): 0.721
+Classifier: LogisticRegression
+Accuracy: 0.791666666667
+             precision    recall  f1-score   support
+
+       Died     0.8146    0.8608    0.8371       194
+   Survived     0.7477    0.6780    0.7111       118
+
+avg / total     0.7893    0.7917    0.7894       312
+
+Area under the Precision-Recall curve (LogisticRegression): 0.815
